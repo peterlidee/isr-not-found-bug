@@ -21,5 +21,5 @@ export default async function page({ params }: Props) {
   if (!validParams.includes(slug)) {
     notFound();
   }
-  return <div>page slug: {slug}</div>;
+  return <div>post slug: {slug}</div>;
 }
